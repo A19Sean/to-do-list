@@ -1,0 +1,25 @@
+.ListItem {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
+
+.Checkbox:checked + span.Strike {
+  text-decoration: line-through;
+}
+
+.Strike {
+  margin-left: 0.5em;
+}
+
+.Close {
+  align-self: center;
+  margin-left: auto;
+}
+
+.List {
+  align-items: center;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+}
